@@ -4,8 +4,8 @@
 ###############################################################################
 # Tamanho máximo total por commit (2 GB)
 $maxSize = 2147483648
-# Limite para Git LFS para arquivos individuais (99 MB)
-$lfsThreshold = 103809024
+# Limite para Git LFS para arquivos individuais (50 MB)
+$lfsThreshold = 49904512
 
 # (Opcional) Configura a página de código para UTF‑8
 chcp 65001 | Out-Null
