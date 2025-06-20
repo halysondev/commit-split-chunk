@@ -177,3 +177,4 @@ if ($batch.Count -gt 0) {
     Commit-Batch -BatchFiles $batch -CommitNumber $commitCount -BatchSize $currentBatchSize
 }
 Write-Host "Todos os arquivos alterados, adicionados ou não rastreados foram processados, comitados e enviados."
+#Narco passastes aq
